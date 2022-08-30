@@ -1,0 +1,7 @@
+
+
+
+function yy=dydt(t,x) 
+    dydt=[x(2);-eps*((x(1)^2)-1)*x(2)-x]
+end
+
